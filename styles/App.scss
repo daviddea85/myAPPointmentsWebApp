@@ -1,0 +1,23 @@
+@import 'components';
+
+html, head, body {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 320px) {}
+
+@media screen and (max-width: 640px) {}
+
+@media screen and (max-width: 800px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 1028px) {} 
+

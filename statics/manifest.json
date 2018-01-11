@@ -1,0 +1,19 @@
+{
+  "name": "Future Jobs",
+  "short_name": "FJ",
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "80x80",
+      "type": "image/png",
+      "density": 0.75
+    }
+  ],
+  "theme_color": "#009688",
+  "background_color": "#009688",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "landscape"
+}

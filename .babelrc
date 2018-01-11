@@ -1,0 +1,23 @@
+{
+    "presets": [
+        "es2015",
+        "react",
+        "stage-0"
+    ],
+    "plugins": [
+        ["module-alias", [
+            {"expose": "actions",       "src": "./src/actions/"},
+            {"expose": "models",        "src": "./src/models/"},
+            {"expose": "core",          "src": "./src/core/"},
+            {"expose": "routes",        "src": "./src/routes/"},
+            {"expose": "components",    "src": "./src/components"},
+            {"expose": "sources",       "src": "./src/sources/"},
+            {"expose": "store",         "src": "./src/store/"},
+            {"expose": "icons",         "src": "./src/icons/"},
+            {"expose": "styles",        "src": "./styles/"},
+            {"expose": "statics",       "src": "./statics/"},
+            {"expose": "data",          "src": "./data/"},
+            {"expose": "node_modules",  "src": "./node_modules/"}
+        ]]
+    ]
+}
